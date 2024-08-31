@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('C:/Users/HP/Downloads/WhatsApp Image 2024-08-31 at 19.37.52_388f9c6b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.top-bar-container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left-icons {
+    flex: 0;
+    position: absolute;
+    left: -90px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a.active {
+    border-bottom: 2px solid green;
+}
+
+.right-icons {
+    flex: 0;
+    position: absolute;
+    right: -90px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.search-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.leaf-image {
+    width: 80%;
+    height: auto;
+}
+
+.quote {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.meal-cards {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meal-card {
+    background-color: white;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+.meal-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.meal-name {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.meal-image {
+    width: 90%;
+    border-radius: 10px;
+}

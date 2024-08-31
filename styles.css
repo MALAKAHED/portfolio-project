@@ -22,7 +22,7 @@ body, html {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 50px; /* تحريك الشريط للأسفل */
 }
 
 .banner .menu-item {
@@ -32,7 +32,7 @@ body, html {
 .banner .menu-item a {
     color: white;
     text-decoration: none;
-    font-size: 24px; 
+    font-size: 24px; /* تكبير النص في الشريط */
     font-weight: bold;
     line-height: 1.2;
 }
@@ -43,16 +43,16 @@ body, html {
 }
 
 .main-text h1 {
-    font-size: 80px; 
-    font-style: italic; 
+    font-size: 80px; /* تكبير النص */
+    font-style: italic; /* جعل النص مائل */
     margin: 0;
-    font-weight: bold; 
+    font-weight: bold; /* جعل النص أعرض */
 }
 
 .main-text p {
-    font-size: 28px; 
-    font-style: italic; 
-    font-weight: bold; 
+    font-size: 28px; /* تكبير حجم الخط للكومنت */
+    font-style: italic; /* جعل النص مائل */
+    font-weight: bold; /* جعل النص أعرض */
     margin-top: 20px;
 }
 
@@ -66,8 +66,8 @@ body, html {
 }
 
 .social-icons img {
-    width: 30px; 
+    width: 30px; /* حجم الأيقونات */
     height: 30px;
     margin-right: 10px;
-    vertical-align: middle; 
+    vertical-align: middle; /* محاذاة الأيقونات بشكل أفضل مع النص */
 }
