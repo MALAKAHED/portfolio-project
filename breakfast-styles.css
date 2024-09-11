@@ -32,7 +32,7 @@ body {
 .menu {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 150%;
 }
 
 .menu a {
@@ -73,7 +73,7 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 50px;
     flex-wrap: wrap; 
 }
 
@@ -81,7 +81,7 @@ body {
     border: 2px solid green;
     padding: 5px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 5px;
     flex: 1;
@@ -94,13 +94,13 @@ body {
 }
 
 .meal-card img {
-    width: 100%;
+    width: 60%;
     height: 90%; 
 }
 
 .meal-title {
-    font-size: 12px; 
+    font-size: 10px; 
     font-weight: normal;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
